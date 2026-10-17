@@ -8,18 +8,27 @@
 </head>
 <body>
 
-    <!-- STICKY NAVBAR DENGAN LOGO 1:1 -->
+    <!-- 1. HEADER NAVBAR DENGAN FITUR PURE CSS MOBILE MENU -->
     <header class="navbar">
         <div class="brand-box">
             <img src="assets/images/logo.jpg" alt="Logo Brand" class="brand-logo">
             <span class="brand-name">Adidas</span>
         </div>
-        <nav class="nav-links">
-            <a href="#promo">Promo</a>
-            <a href="#terlaris">Terlaris</a>
-            <a href="#koleksi">Koleksi</a>
-            <a href="#prestasi">Prestasi</a>
-            <a href="#order" class="btn-nav">Beli Sekarang</a>
+    <!-- CHECKBOX TERSEMBUNYI (PENGGANTI LOGIKA JAVASCRIPT)-->
+    <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+<!-- 2. TOMBOL ICON HAMBURGER (GARIS 3) UNTUK HP-->
+    <label for="menu-toggle" class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+    </label>
+    <!-- 3. DAFTAR Tautan Navigasi -->
+    <nav class="nav-links">
+        <a href="#promo">Promo</a>
+        <a href="#terlaris">Terlaris</a>
+        <a href="#koleksi">Koleksi</a>
+        <a href="#prestasi">Prestasi</a>
+        <a href="#order" class="btn-nav">Beli Sekarang</a>
         </nav>
     </header>
 
